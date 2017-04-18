@@ -1,0 +1,47 @@
+{
+  "uid" : "257ddd24cb52dfe8",
+  "name" : "signIN",
+  "title" : "Sign IN",
+  "time" : {
+    "start" : 1492127468444,
+    "stop" : 1492127472784,
+    "duration" : 4340
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "cf51d0a7fa9d6f6c",
+    "name" : "RegressionBootCamp : Regression",
+    "title" : "RegressionBootCamp : Regression"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-T7V4247"
+  }, {
+    "name" : "thread",
+    "value" : "3984@DESKTOP-T7V4247.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "RegressionBootCamp : Regression"
+  }, {
+    "name" : "suite-title",
+    "value" : "RegressionBootCamp : Regression"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

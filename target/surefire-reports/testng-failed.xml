@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [RegressionBootCamp]">
+  <test name="Regression">
+    <classes>
+      <class name="com.hotels.bootcamp.qa_autoation_bobby.TestGiftCard"/>
+      <class name="com.hotels.bootcamp.qa_autoation_bobby.TestDEMO"/>
+      <class name="com.hotels.bootcamp.qa_autoation_bobby.TestSignIn"/>
+    </classes>
+  </test> <!-- Regression -->
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.hotels.bootcamp.qa_autoation_bobby.TestDEMO">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialWebDriver"/>
+        </methods>
+      </class> <!-- com.hotels.bootcamp.qa_autoation_bobby.TestDEMO -->
+      <class name="com.hotels.bootcamp.qa_autoation_bobby.TestSignIn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialWebDriver"/>
+        </methods>
+      </class> <!-- com.hotels.bootcamp.qa_autoation_bobby.TestSignIn -->
+      <class name="com.hotels.bootcamp.qa_autoation_bobby.TestGiftCard">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialWebDriver"/>
+          <include name="GiftCard"/>
+        </methods>
+      </class> <!-- com.hotels.bootcamp.qa_autoation_bobby.TestGiftCard -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [RegressionBootCamp] -->

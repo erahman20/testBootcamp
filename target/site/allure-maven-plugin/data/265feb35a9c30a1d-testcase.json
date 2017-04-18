@@ -1,0 +1,47 @@
+{
+  "uid" : "265feb35a9c30a1d",
+  "name" : "cardInfo",
+  "title" : "Card info",
+  "time" : {
+    "start" : 1492184530887,
+    "stop" : 1492184531865,
+    "duration" : 978
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8152dc8420e35690",
+    "name" : "Default suite : Default test",
+    "title" : "Default suite : Default test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-T7V4247"
+  }, {
+    "name" : "thread",
+    "value" : "3796@DESKTOP-T7V4247.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

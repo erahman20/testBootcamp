@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionBootCamp">
+  <test name="Regression">
+    <classes>
+      <class name="com.hotels.bootcamp.qa_autoation_bobby.TestGiftCard"/>
+       <class name="com.hotels.bootcamp.qa_autoation_bobby.TestDEMO"/>
+        <class name="com.hotels.bootcamp.qa_autoation_bobby.TestSignIn"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- RegressionBootCamp -->

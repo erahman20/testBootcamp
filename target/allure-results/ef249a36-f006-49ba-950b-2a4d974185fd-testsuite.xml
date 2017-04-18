@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1492127796133" stop="1492127878170" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>RegressionBootCamp : Regression</name>
+    <title>RegressionBootCamp : Regression</title>
+    <test-cases>
+        <test-case start="1492127810330" stop="1492127831171" status="passed">
+            <name>GiftCard</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-T7V4247"/>
+                <label name="thread" value="12808@DESKTOP-T7V4247.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492127853285" stop="1492127857237" status="passed">
+            <name>testSupport</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-T7V4247"/>
+                <label name="thread" value="12808@DESKTOP-T7V4247.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492127869341" stop="1492127874956" status="passed">
+            <name>signIN</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-T7V4247"/>
+                <label name="thread" value="12808@DESKTOP-T7V4247.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

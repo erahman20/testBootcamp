@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 145.906 sec <<< FAILURE! - in TestSuite
+GiftCard(com.hotels.bootcamp.qa_autoation_bobby.TestGiftCard)  Time elapsed: 61.285 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: Webdriver waited for 15 seconds but still could not find the element therefore Timeout Exception has been thrown (tried for 15 second(s) with 1 SECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-T7V4247', ip: '192.168.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at com.hotels.bootcamp.qa_autoation_bobby.BasePage$1.apply(BasePage.java:27)
+	at com.hotels.bootcamp.qa_autoation_bobby.BasePage$1.apply(BasePage.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.hotels.bootcamp.qa_autoation_bobby.BasePage.webDriverFluentWait(BasePage.java:25)
+	at com.hotels.bootcamp.qa_autoation_bobby.BasePage.clickOn(BasePage.java:39)
+	at com.hotels.bootcamp.qa_autoation_bobby.GiftCardLanding.pickRoom(GiftCardLanding.java:88)
+	at com.hotels.bootcamp.qa_autoation_bobby.TestGiftCard.GiftCard(TestGiftCard.java:34)
+

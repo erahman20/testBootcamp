@@ -1,0 +1,266 @@
+{
+  "time" : {
+    "start" : 1492127390000,
+    "stop" : 1492188108073,
+    "duration" : 60718073
+  },
+  "testSuites" : [ {
+    "uid" : "8152dc8420e35690",
+    "name" : "Default suite : Default test",
+    "title" : "Default suite : Default test",
+    "time" : {
+      "start" : 1492181334172,
+      "stop" : 1492186496120,
+      "duration" : 5161948
+    },
+    "statistic" : {
+      "total" : 11,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 7
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "db0cfe10da9ca292",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492186001731,
+        "stop" : 1492186021078,
+        "duration" : 19347
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "30ba18c49048c5e0",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492185255222,
+        "stop" : 1492185315661,
+        "duration" : 60439
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "b108e883549fdfcc",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492186401343,
+        "stop" : 1492186416659,
+        "duration" : 15316
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "9f65bb12ba8f5783",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492186472473,
+        "stop" : 1492186496120,
+        "duration" : 23647
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "265feb35a9c30a1d",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492184530887,
+        "stop" : 1492184531865,
+        "duration" : 978
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4d6259084bd11c2e",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492181711322,
+        "stop" : 1492181714055,
+        "duration" : 2733
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "87cb032c2bca2f07",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492185905796,
+        "stop" : 1492185916449,
+        "duration" : 10653
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "2cfde9c51004d013",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492186289140,
+        "stop" : 1492186300141,
+        "duration" : 11001
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "f45d3c1c07272f5c",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492181825497,
+        "stop" : 1492181832306,
+        "duration" : 6809
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "77ad95e63cabb527",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492186079144,
+        "stop" : 1492186091684,
+        "duration" : 12540
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "712316cf6e707bc7",
+      "name" : "cardInfo",
+      "title" : "Card info",
+      "time" : {
+        "start" : 1492181334172,
+        "stop" : 1492181335739,
+        "duration" : 1567
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "cf51d0a7fa9d6f6c",
+    "name" : "RegressionBootCamp : Regression",
+    "title" : "RegressionBootCamp : Regression",
+    "time" : {
+      "start" : 1492127390000,
+      "stop" : 1492188108073,
+      "duration" : 60718073
+    },
+    "statistic" : {
+      "total" : 9,
+      "passed" : 7,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 2
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "43c3724cefbaad87",
+      "name" : "GiftCard",
+      "title" : "Gift card",
+      "time" : {
+        "start" : 1492127390000,
+        "stop" : 1492127430732,
+        "duration" : 40732
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "bf2d15cf8f1b5bd1",
+      "name" : "testSupport",
+      "title" : "Test support",
+      "time" : {
+        "start" : 1492127448671,
+        "stop" : 1492127451902,
+        "duration" : 3231
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "257ddd24cb52dfe8",
+      "name" : "signIN",
+      "title" : "Sign IN",
+      "time" : {
+        "start" : 1492127468444,
+        "stop" : 1492127472784,
+        "duration" : 4340
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "53b8c4a0c67ab8ca",
+      "name" : "GiftCard",
+      "title" : "Gift card",
+      "time" : {
+        "start" : 1492187991862,
+        "stop" : 1492188052798,
+        "duration" : 60936
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "193ab588e0edec9d",
+      "name" : "testSupport",
+      "title" : "Test support",
+      "time" : {
+        "start" : 1492188083082,
+        "stop" : 1492188089689,
+        "duration" : 6607
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "661c29018be00c8e",
+      "name" : "signIN",
+      "title" : "Sign IN",
+      "time" : {
+        "start" : 1492188105224,
+        "stop" : 1492188108073,
+        "duration" : 2849
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9d7ac1f5d24438f0",
+      "name" : "GiftCard",
+      "title" : "Gift card",
+      "time" : {
+        "start" : 1492127810330,
+        "stop" : 1492127831171,
+        "duration" : 20841
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "baca44d14f67d391",
+      "name" : "testSupport",
+      "title" : "Test support",
+      "time" : {
+        "start" : 1492127853285,
+        "stop" : 1492127857237,
+        "duration" : 3952
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "3038ec3da92bdb90",
+      "name" : "signIN",
+      "title" : "Sign IN",
+      "time" : {
+        "start" : 1492127869341,
+        "stop" : 1492127874956,
+        "duration" : 5615
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
